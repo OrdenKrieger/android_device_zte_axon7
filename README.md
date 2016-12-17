@@ -1,14 +1,11 @@
-## TWRP device tree for ZTE Axon 7 (A2017U, ailsa_ii)
+## TWRP device tree for ZTE Axon 7 (A2017/ailsa_ii)
 
-This is for the US/Canada A2017U model 4 GB and 6 GB variants only.
-Do not flash on your A2017G model devices.
-
-Add to `.repo/local_manifests/a2017u.xml`:
+Add to `.repo/local_manifests/ailsa_ii.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/zte/a2017u" name="android_device_zte_a2017u" remote="TeamWin" revision="android-6.0" />
+	<project path="device/zte/ailsa_ii" name="android_device_zte_ailsa_ii" remote="TeamWin" revision="android-6.0" />
 </manifest>
 ```
 
@@ -18,7 +15,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_a2017u-eng
+lunch omni_ailsa_ii-eng
 make -j5 recoveryimage
 ```
 

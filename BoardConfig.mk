@@ -1,4 +1,4 @@
-DEVICE_TREE := device/zte/a2017u
+DEVICE_TREE := device/zte/ailsa_ii
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true

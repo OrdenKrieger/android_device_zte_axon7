@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_a2017u.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_ailsa_ii.mk

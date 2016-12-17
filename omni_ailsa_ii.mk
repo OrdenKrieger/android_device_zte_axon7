@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := a2017u
+PRODUCT_RELEASE_NAME := ailsa_ii
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -17,8 +17,8 @@ PRODUCT_MANUFACTURER := ZTE
 
 # The below values will be replaced for compatibility with OTAs!
 PRODUCT_MODEL := ZTE A2017U
-PRODUCT_DEVICE := a2017u
-PRODUCT_NAME := omni_a2017u
+PRODUCT_DEVICE := ailsa_ii
+PRODUCT_NAME := omni_ailsa_ii
 
 # Updated values (see system.prop)
 # PRODUCT_MODEL := ZTE A2017U
