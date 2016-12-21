@@ -11,6 +11,7 @@
 /efs1		emmc	/dev/block/bootdevice/by-name/modemst1	flags=backup=1;display="EFS"
 /efs2		emmc	/dev/block/bootdevice/by-name/modemst2	flags=backup=1;subpartitionof=/efs1
 /efsg		emmc	/dev/block/bootdevice/by-name/fsg	flags=backup=1;subpartitionof=/efs1
+/efsc		emmc	/dev/block/bootdevice/by-name/fsc	flags=backup=1;subpartitionof=/efs1
 /persist	ext4	/dev/block/bootdevice/by-name/persist	flags=backup=1;subpartitionof=/efs1
 /external_sd	vfat	/dev/block/mmcblk0p1 /dev/block/mmcblk0	flags=display="Micro SDCard";storage;wipeingui;removable;encryptable=footer;length=-16384
 /usb-otg	vfat	/dev/block/sdg1 /dev/block/sdg		flags=display="USB OTG";storage;wipeingui;removable
