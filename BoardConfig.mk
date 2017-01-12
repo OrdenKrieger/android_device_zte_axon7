@@ -65,6 +65,7 @@ TW_BRIGHTNESS_PATH := "/sys/devices/soc/900000.qcom\x2cmdss_mdp/900000.qcom\x2cm
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 153
 TW_INCLUDE_NTFS_3G := true
+TW_IGNORE_MISC_WIPE_DATA := true
 
 # exFAT drivers included in the kernel
 TW_NO_EXFAT_FUSE := true
