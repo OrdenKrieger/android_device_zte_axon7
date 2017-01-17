@@ -81,7 +81,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Debug flags
-TWRP_INCLUDE_LOGCAT := true
+# TWRP_INCLUDE_LOGCAT := true
 
 # Abuse unified device and system.prop to match props for OTA compatibility
 TARGET_UNIFIED_DEVICE := true
