@@ -21,7 +21,7 @@
 /dev/block/bootdevice/by-name/bluetooth                      /bt_firmware      vfat    ro,shortname=lower,uid=1002,gid=3002,dmask=227,fmask=337,context=u:object_r:bt_firmware_file:s0                 wait
 /dev/block/bootdevice/by-name/misc                           /misc             emmc    defaults                                                                                                        defaults
 
-/dev/block/zram0                                             none              swap    defaults                                                                                                        zramsize=536870912,zramstreams=4
+/dev/block/zram0                                             none              swap    defaults                                                                                                        zramsize=536870912,max_comp_streams=4
 
 /devices/soc/74a4900.sdhci/mmc_host*                         auto              auto    defaults                                                                                                        voldmanaged=sdcard1:auto,encryptable=footer
                                 
