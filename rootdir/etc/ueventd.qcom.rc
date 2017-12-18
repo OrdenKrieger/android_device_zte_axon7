@@ -64,6 +64,9 @@
 /dev/mdss_rotator         0664   system     system
 /dev/sdsprpc-smd          0660   system     system
 
+# QDSS
+/dev/byte-cntr            0660   system    oem_2902
+
 #permissions for audio
 /dev/msm_qcelp            0660   system     audio
 /dev/msm_evrc             0660   system     audio
