@@ -171,6 +171,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
 
+# VNDK
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.vndk.version=27
+
 # Voice assistant
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
