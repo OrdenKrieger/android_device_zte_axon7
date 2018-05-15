@@ -167,6 +167,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.pmd=false \
     ro.vendor.sensors.sta_detect=false
 
+# Security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2018-07-01
+
 # TimeService
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
