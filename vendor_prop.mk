@@ -67,8 +67,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display (Qualcomm AD)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qualcomm.cabl=0 \
-    vendor.display.enable_default_color_mode=1
+    vendor.display.enable_default_color_mode=1 \
+    ro.vendor.display.cabl=0
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -84,7 +84,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
-    debug.gralloc.enable_fb_ubwc=1 \
     debug.hwui.use_buffer_age=false \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
@@ -97,10 +96,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.qualcomm.display.paneltype=1 \
     ro.sf.lcd_density=640 \
-    sdm.debug.disable_rotator_split=1 \
-    sdm.debug.disable_skip_validate=1 \
-    sdm.perf_hint_window=50 \
-    vendor.display.enable_default_color_mode=1
+    vendor.display.disable_rotator_split=1 \
+    vendor.display.disable_skip_validate=1 \
+    vendor.display.enable_default_color_mode=1 \
+    vendor.display.perf_hint_window=50 \
+    vendor.gralloc.enable_fb_ubwc=1
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
