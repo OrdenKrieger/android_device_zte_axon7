@@ -92,4 +92,6 @@ done
     patchelf --remove-needed android.hidl.manager@1.0.so "$HIDL_MANAGER_LIB" || true
 done
 
+patchelf --replace-needed android.hardware.gnss@1.0.so android.hardware.gnss@1.0-v27.so $BLOB_ROOT/vendor/lib64/vendor.qti.gnss@1.0_vendor.so
+
 "$MY_DIR"/setup-makefiles.sh
