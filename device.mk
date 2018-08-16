@@ -397,6 +397,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8996-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996-normal.conf \
     $(LOCAL_PATH)/configs/thermal-engine-8996-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996-perf.conf
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # VNDK
 PRODUCT_PACKAGES += \
     libicuuc.vendor \
