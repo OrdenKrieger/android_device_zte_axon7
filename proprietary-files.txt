@@ -326,7 +326,7 @@ vendor/lib64/libfpnav.so
 vendor/lib64/libfpservice.so
 
 # NFC firmware
-vendor/firmware/libpn548ad_fw.so
+vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
 
 # OMX service
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc
