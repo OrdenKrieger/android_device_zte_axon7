@@ -210,6 +210,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_axon7
 TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-07-01
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
