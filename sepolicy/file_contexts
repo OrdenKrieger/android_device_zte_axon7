@@ -2,6 +2,7 @@
 /dev/block/platform/soc/624000.ufshc/by-name/cryptkey         u:object_r:metadata_block_device:s0
 
 # Data files
+/data/camera(/.*)?                          u:object_r:camera_socket:s0
 /data/system/fingerprint(/.*)?              u:object_r:gx_fpd_data_file:s0
 /data/vendor/nfc(/.*)?                      u:object_r:nfc_data_file:s0
 
