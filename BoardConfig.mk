@@ -126,7 +126,7 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CM Hardware
-BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/lineagehw
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchscreen/wake_gesture"
 
 # CNE and DPM
