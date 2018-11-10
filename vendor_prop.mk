@@ -129,6 +129,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
     persist.net.doxlat=true \
+    persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.multisim.config=dsds \
     persist.vendor.radio.add_power_save=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
