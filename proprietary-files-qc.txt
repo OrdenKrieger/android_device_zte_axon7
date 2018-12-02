@@ -422,13 +422,13 @@ vendor/lib/libqmi.so|1d1dbf7dba981e620ea9d4cdc2336040ca085fca
 vendor/lib/libsmemlog.so|4e90311f07677be47af2c2df086c705fd9399ff9
 
 # RIL - from fujisan - OPM1.171019.026
-# qti-telephony-common.jar - from tissot - OPR1.170623.026
+# qti-telephony-common.jar - from daisy - PKQ1.180917.001
 -app/QtiTelephonyService/QtiTelephonyService.apk|c01d25e34c2dcf993d786f107a17a6323a337baa
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/lpa.xml|5aed30f29c7fbe91dcf7eef9dddbdf96ac6bcbee
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/qcrilhook.jar|a6e0b85b150943212a9dd4cce67981f365bc16c4
--framework/qti-telephony-common.jar|2eba987ae297a892e895ec1e9a302b41dbe0232e
+-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -framework/QtiTelephonyServicelibrary.jar|5741f312cb37d8d05f8f217da7a57937880344f4
 -framework/uimlpalibrary.jar|468e695d7029af7b39d4502b4a3a1ec9e0a610ba
 lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|db29f98af23f824fbce14bccba61c0aee00ac450
@@ -477,9 +477,7 @@ vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|7a8567a10b7
 vendor/radio/qcril_database/qcril.db|57152221f3e51e4caa6305236ca0e1bfb75ebc98
 
 # IMS - from fujisan - OPM1.171019.026
-# ims.apk - from tissot - OPR1.170623.026
--app/ims/ims.apk|42881dc3adfd5e4f716bdb4d510ca45a0b415b74
--app/imssettings/imssettings.apk
+# ims.apk - from daisy - PKQ1.180917.001
 etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml
 lib64/com.qualcomm.qti.imscmservice@1.0.so|f3f5ae003f520b5e0f02640475cc2adb5cfa2b7b
 lib64/libdiag_system.so|4d2616ea4d6582ac7640e78012ae2eac9d41c53e
@@ -502,6 +500,7 @@ lib/lib-imsvtextutils.so|ad1a0691b60fe6ca97b051533c9a845a5fd25f0d
 lib/lib-imsvtutils.so|d89e8adda28ebf3e14e7245ef6885da790f6f351
 lib/librcc.so|a6ec735f5f2fe9d76411d64338d51741cda47b7a
 lib/vendor.qti.imsrtpservice@1.0.so|4f089deff583e1c745a394679f65411634452d2f
+-priv-app/ims/ims.apk|eef47c0b6f250e7f96e7155d84274b1c83940d8f
 vendor/bin/imsdatadaemon|aa90b780e0b0072a317d79789d23f23d694476ba
 vendor/bin/imsqmidaemon|0052efbf4e51bbafec10f33902616723ce38da2a
 vendor/bin/imsrcsd|3d9efa0f67330592cb9d7c0376517fc9f76680dd
