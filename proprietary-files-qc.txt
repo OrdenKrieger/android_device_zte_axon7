@@ -411,7 +411,7 @@ vendor/bin/ipacm-diag|8f5bbcc906b01d0e84ed026b724c8ba5922690a8
 vendor/bin/netmgrd|f5ce9d1f5570fe17f51256585beccb77ad1375c8
 vendor/bin/qti|57132bc93bdbc1974b5033512bd6a5b417bc5550
 vendor/bin/rmt_storage|4e42aaebe937bc547400833e5b8a01b2b4e8cd8b
-vendor/bin/tftp_server|17e2e0444effdf88c7c850de8eed8916fa8a9f09
+vendor/bin/tftp_server|05a9c0e0e691e534e703bded4a99083d25a26ebb
 vendor/etc/data/dsi_config.xml|c85722f90588edd3288b953b0ab97c81edeabfa9
 vendor/etc/data/netmgr_config.xml|23db3d4430cec4780123429ccf720923480333e0
 vendor/lib64/libconfigdb.so|395fe18787a4e1eb07f6f7962f0e400f3dc17576
@@ -420,6 +420,8 @@ vendor/lib64/libmdmdetect.so|4d53c9aaf01f31605575f040ba95e9a32af10cc5
 vendor/lib64/libmodemapi_vendor.so|d09123846c1d448439868f568417e61c8e8db1f3
 vendor/lib64/libnetmgr.so|4fc2687e229a63277f856baa8c6add0e01668222
 vendor/lib64/libqcmaputils.so|0836b52e5d0fc89ea819bb7d600c3a53ef059a51
+vendor/lib64/libqsocket.so|3799e723be152c31c270f93a64e2865c0d9e86c4
+vendor/lib64/libqrtr.so|83676274fde1056a0507b4100a3a5423f5af5021
 vendor/lib64/libril-qc-ltedirectdisc.so|1ade6b943a2af4abecd42dc44eeb482fec5cd746
 vendor/lib64/libril-qc-qmi-1.so|f301c2ace021a29440e058b574291279b767051b
 vendor/lib64/libril-qc-radioconfig.so|7fe263c657b66a34248c4f4b2dffcd98e9c38951
