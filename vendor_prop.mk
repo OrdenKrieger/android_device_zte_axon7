@@ -111,6 +111,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true
 
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true
+
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.nfc.smartcard.config=SIM1,eSE1 \
