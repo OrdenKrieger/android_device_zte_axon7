@@ -8,12 +8,11 @@ allow hal_fingerprint_default gx_fpd_service:service_manager find;
 # allow TEE
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
 
-# allow log
-#allow hal_fingerprint_default log_device:dir search;
-#allow hal_fingerprint_default log_device:chr_file rw_file_perms;
+# access to /data/system/users/[0-9]+/fpdata
+allow hal_fingerprint_default fingerprintd_data_file:file create_file_perms;
+allow hal_fingerprint_default fingerprintd_data_file:dir rw_dir_perms;
 
-# allow writing fp_msg_type
-#allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default tee_device:chr_file getattr;
 
 # R dir perms for firmware dir
 r_dir_file(hal_fingerprint_default, firmware_file)

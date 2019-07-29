@@ -1,6 +1,8 @@
-type camera_socket, file_type, data_file_type;
+type camera_socket, file_type, core_data_file_type, data_file_type;
+type audio_vendor_data_file, file_type, core_data_file_type, data_file_type;
+type cnd_core_data_file, file_type, core_data_file_type, data_file_type;
 type debugfs_rmt, debugfs_type, fs_type;
-type gx_fpd_data_file, data_file_type, file_type;
+type gx_fpd_data_file, data_file_type, core_data_file_type, file_type;
 type idc_file, file_type, vendor_file_type;
 type keylayout_file, file_type, vendor_file_type;
-type proc_touchscreen, sysfs_type, fs_type;
+type proc_touchscreen, proc_type, sysfs_type, fs_type;

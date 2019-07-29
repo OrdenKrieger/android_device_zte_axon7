@@ -1,3 +1,5 @@
+typeattribute mm-qcamerad binder_in_vendor_violators;
 allow mm-qcamerad vendor_camera_data_file:file { create read write open };
 
 allow mm-qcamerad camera_socket:dir w_dir_perms;
+binder_use(mm-qcamerad);

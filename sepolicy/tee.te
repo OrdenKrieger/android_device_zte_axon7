@@ -1,2 +1,7 @@
+# /data/system/fingerprint labeling
+type_transition tee system_data_file:{ dir file } gx_fpd_data_file;
+
+allow tee system_data_file:dir r_dir_perms;
+
 allow tee gx_fpd_data_file:dir create_dir_perms;
 allow tee gx_fpd_data_file:file create_file_perms;
