@@ -22,9 +22,8 @@ $(call inherit-product, build/target/product/embedded.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Time Zone data for recovery
-PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.keystore=msm8996
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := axon7
@@ -32,5 +31,3 @@ PRODUCT_NAME := omni_axon7
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := Axon 7
 PRODUCT_MANUFACTURER := ZTE
-
-
