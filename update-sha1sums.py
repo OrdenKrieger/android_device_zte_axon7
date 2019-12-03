@@ -22,7 +22,7 @@ import sys
 device='axon7'
 vendor='zte'
 
-lines = [ line for line in open('proprietary-files.txt', 'r') ]
+lines = [ line for line in open('proprietary-files-qc.txt', 'r') ]
 vendorPath = '../../../vendor/' + vendor + '/' + device + '/proprietary'
 needSHA1 = False
 
